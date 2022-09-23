@@ -1,13 +1,12 @@
 
-import { FaBeer } from 'react-icons/fa';
-
+import { AiOutlineShoppingCart } from 'react-icons/ai';
+// se cambio el fa po ai
 const CartWidget = () => {
-// Todo agregar icono
-// Todo ubicarlo adentro del navbar
+
     return ( 
         <>
-        <FaBeer />
-        <>CartWidget</>
+        <AiOutlineShoppingCart />
+        
         </>
      );
 

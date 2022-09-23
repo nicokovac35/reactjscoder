@@ -1,8 +1,13 @@
-const ItemListContainer = () => {
+const ItemListContainer = ({ greeting}) => {
         //Todo mostar la prop greeting
         // Todo ubicarlo en app.js debajo del navbar 
+
+        // greeting dentro de corchetes por ser una variable 
     return (
-        <p>ItemListContainer</p>
+        <> 
+        <h1>Productos</h1>
+        <h3>{greeting}</h3>
+        </>
     );
 }
 
